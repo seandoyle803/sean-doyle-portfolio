@@ -321,7 +321,7 @@ nav ul li a:focus {
 }
 
 .tigerhawk-img {
-    width: 160px;
+    width: 220px;
     height: auto;
     display: block;
 }
@@ -479,7 +479,7 @@ nav ul li a:focus {
 .contact-intro {
     font-size: 1.05rem;
     color: var(--text-secondary);
-    max-width: 500px;
+    white-space: nowrap;
     margin: 0 auto 2.5rem;
 }
 
@@ -554,7 +554,7 @@ footer p {
     }
 
     .tigerhawk-img {
-        width: 130px;
+        width: 180px;
     }
 
     .hero-content {
