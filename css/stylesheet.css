@@ -1,0 +1,341 @@
+/* ============================================
+   BASE & RESET
+   ============================================ */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #F7F7FA;
+    color: #1F2430;
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #1F2430;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #5B4B8A;
+    margin-bottom: 1.25rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1F2430;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #5B4B8A;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #6C5FA7;
+    text-decoration: underline;
+}
+
+/* ============================================
+   LAYOUT
+   ============================================ */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* ============================================
+   NAVIGATION
+   ============================================ */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #C0C4CC;
+}
+
+nav {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0.85rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.nav-name {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #1F2430;
+    white-space: nowrap;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #1F2430;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #5B4B8A;
+    text-decoration: none;
+}
+
+/* ============================================
+   HERO SECTION
+   ============================================ */
+
+#hero {
+    background-color: #FFFFFF;
+    padding: 60px 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid #E9EAF0;
+}
+
+.hero-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.headshot {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #C0C4CC;
+    display: block;
+}
+
+.tagline {
+    font-size: 1.05rem;
+    color: #5B4B8A;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+/* ============================================
+   SECTIONS — GENERAL
+   ============================================ */
+
+section {
+    padding: 60px 0;
+}
+
+section:nth-of-type(even) {
+    background-color: #F7F7FA;
+}
+
+section:nth-of-type(odd) {
+    background-color: #FFFFFF;
+}
+
+#hero {
+    background-color: #FFFFFF;
+}
+
+/* ============================================
+   ABOUT SECTION
+   ============================================ */
+
+#about p {
+    max-width: 680px;
+}
+
+/* ============================================
+   SKILLS SECTION
+   ============================================ */
+
+.skills-group {
+    margin-bottom: 1.75rem;
+}
+
+.skill-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+.skill-tag {
+    display: inline-block;
+    padding: 0.35rem 1rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.skill-core {
+    background-color: #5B4B8A;
+    color: #FFFFFF;
+}
+
+.skill-secondary {
+    background-color: #E9EAF0;
+    color: #1F2430;
+    border: 1px solid #C0C4CC;
+}
+
+/* ============================================
+   PROJECTS SECTION
+   ============================================ */
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.project-card {
+    background-color: #FFFFFF;
+    border: 1px solid #C0C4CC;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.project-tools {
+    font-size: 0.85rem;
+    color: #5B4B8A;
+    font-weight: 600;
+    margin-bottom: 0.85rem;
+    letter-spacing: 0.01em;
+}
+
+.project-card ul {
+    padding-left: 1.2rem;
+    margin-bottom: 0;
+}
+
+.project-card ul li {
+    margin-bottom: 0.4rem;
+    font-size: 0.97rem;
+    color: #1F2430;
+}
+
+/* ============================================
+   CONTACT SECTION
+   ============================================ */
+
+#contact p {
+    margin-bottom: 1.25rem;
+}
+
+.contact-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.contact-list li a {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #5B4B8A;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s, color 0.2s;
+}
+
+.contact-list li a:hover,
+.contact-list li a:focus {
+    color: #6C5FA7;
+    border-bottom-color: #6C5FA7;
+    text-decoration: none;
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+footer {
+    background-color: #E9EAF0;
+    border-top: 1px solid #C0C4CC;
+    padding: 1.25rem 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.875rem;
+    color: #1F2430;
+    margin-bottom: 0;
+}
+
+/* ============================================
+   RESPONSIVE — DESKTOP (640px+)
+   ============================================ */
+
+@media (min-width: 640px) {
+    .project-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* ============================================
+   RESPONSIVE — MOBILE (max 480px)
+   ============================================ */
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .nav-name {
+        display: none;
+    }
+
+    nav ul {
+        gap: 1rem;
+    }
+
+    .headshot {
+        width: 130px;
+        height: 130px;
+    }
+}

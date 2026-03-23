@@ -3,10 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sean Doyle Portfolio</title>
+    <title>Sean Doyle | Aspiring Data Analyst</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p>Welcome to my portfolio site.</p>
+
+    <header>
+        <nav>
+            <span class="nav-name">Sean Doyle</span>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero">
+            <div class="hero-inner">
+                <img
+                    src="images/seandoyle-headshot.jpeg"
+                    alt="Professional headshot of Sean Doyle"
+                    class="headshot"
+                >
+                <h1>Sean Doyle</h1>
+                <p class="tagline">Aspiring Data Analyst | Turning Data into Insights and Predictions</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    I'm a Business Analytics and Information Systems student at the University of Iowa, on track to graduate in May 2027. I work with SQL, Python, Power BI, and Excel to analyze data, surface patterns, and support better decisions. I'm drawn to project-based work where I can take a problem from raw data all the way to a clear, actionable finding. I'm currently seeking Data Analyst Intern and Business Analyst Intern roles where I can apply these skills to real business problems.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-group">
+                    <h3>Core Technical Skills</h3>
+                    <ul class="skill-list">
+                        <li class="skill-tag skill-core">SQL</li>
+                        <li class="skill-tag skill-core">Python</li>
+                        <li class="skill-tag skill-core">Power BI</li>
+                        <li class="skill-tag skill-core">Excel</li>
+                    </ul>
+                </div>
+                <div class="skills-group">
+                    <h3>Additional Skills</h3>
+                    <ul class="skill-list">
+                        <li class="skill-tag skill-secondary">APIs</li>
+                        <li class="skill-tag skill-secondary">JSON</li>
+                        <li class="skill-tag skill-secondary">Oracle SQL</li>
+                        <li class="skill-tag skill-secondary">AI (Applied Usage)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+
+                    <article class="project-card">
+                        <h3>Unicorn Database Project</h3>
+                        <p class="project-tools">Oracle APEX &nbsp;·&nbsp; SQL</p>
+                        <ul>
+                            <li>Designed and implemented a relational database analyzing 1,000+ global unicorn companies</li>
+                            <li>Built a normalized schema and entity-relationship diagram (ERD) with multiple relational tables</li>
+                            <li>Used SQL queries including joins and CASE logic to analyze funding patterns, geographic distribution, and industry trends</li>
+                        </ul>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>MLB Predictive Analytics Sheet</h3>
+                        <p class="project-tools">Google Sheets</p>
+                        <ul>
+                            <li>Integrated 500+ player statistics across 30+ MLB teams into a single dataset</li>
+                            <li>Used VLOOKUP and advanced formulas to combine and cross-reference multiple data sources</li>
+                            <li>Analyzed player performance trends across multiple timeframes to support predictive insights</li>
+                        </ul>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>College Rating Analysis Project</h3>
+                        <p class="project-tools">Excel</p>
+                        <ul>
+                            <li>Analyzed a dataset of institutional metrics including student-teacher ratios and academic outcomes</li>
+                            <li>Applied regression analysis to identify relationships between key variables and overall college ratings</li>
+                            <li>Identified the strongest drivers of college performance and validated findings against known benchmarks</li>
+                        </ul>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>I'm actively looking for Data Analyst and Business Analyst internship opportunities. Feel free to reach out.</p>
+                <ul class="contact-list">
+                    <li>
+                        <a href="mailto:Seandoyle803@gmail.com">Seandoyle803@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/sean-doyle-18147928b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/seandoyle803" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sean Doyle</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
 </body>
 </html>
