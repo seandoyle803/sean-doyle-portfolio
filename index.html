@@ -6,12 +6,13 @@
     <title>Sean Doyle | Aspiring Data Analyst</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
 
-    <header>
+    <!-- NAVIGATION -->
+    <header id="site-header">
         <nav>
             <span class="nav-name">Sean Doyle</span>
             <ul>
@@ -25,105 +26,189 @@
 
     <main>
 
+        <!-- HERO -->
         <section id="hero">
-            <div class="hero-inner">
-                <img
-                    src="images/seandoyle-headshot.jpeg"
-                    alt="Professional headshot of Sean Doyle"
-                    class="headshot"
-                >
-                <h1>Sean Doyle</h1>
-                <p class="tagline">Aspiring Data Analyst | Turning Data into Insights and Predictions</p>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-eyebrow">Aspiring Data Analyst</p>
+                    <h1>Sean Doyle</h1>
+                    <p class="hero-tagline">Turning data into insights and predictions</p>
+                    <a href="#contact" class="hero-cta">Get in Touch</a>
+                </div>
+                <div class="hero-image-wrap">
+                    <img
+                        src="images/seandoyle-headshot.jpeg"
+                        alt="Professional headshot of Sean Doyle"
+                        class="headshot"
+                    >
+                </div>
             </div>
         </section>
 
+        <!-- ABOUT -->
         <section id="about">
             <div class="container">
                 <h2>About Me</h2>
-                <p>
-                    I'm a Business Analytics and Information Systems student at the University of Iowa, on track to graduate in May 2027. I work with SQL, Python, Power BI, and Excel to analyze data, surface patterns, and support better decisions. I'm drawn to project-based work where I can take a problem from raw data all the way to a clear, actionable finding. I'm currently seeking Data Analyst Intern and Business Analyst Intern roles where I can apply these skills to real business problems.
-                </p>
+                <div class="about-body">
+                    <p>
+                        I'm a Business Analytics and Information Systems student at the University of Iowa, graduating in May 2027. I work with SQL, Python, Power BI, and Excel to pull meaning from messy data and translate it into decisions that actually matter.
+                    </p>
+                    <p>
+                        My work is project-driven — I'm most effective when I can go from a raw dataset to a clear finding. Whether that means building a relational database, running regression models, or integrating hundreds of rows of statistics into a single analytical view, I follow the work wherever it leads.
+                    </p>
+                    <p>
+                        I'm looking to bring that approach to a team that values analytical thinking, clear communication, and getting things done.
+                    </p>
+                </div>
             </div>
         </section>
 
+        <!-- SKILLS -->
         <section id="skills">
             <div class="container">
                 <h2>Skills</h2>
-                <div class="skills-group">
-                    <h3>Core Technical Skills</h3>
-                    <ul class="skill-list">
-                        <li class="skill-tag skill-core">SQL</li>
-                        <li class="skill-tag skill-core">Python</li>
-                        <li class="skill-tag skill-core">Power BI</li>
-                        <li class="skill-tag skill-core">Excel</li>
-                    </ul>
-                </div>
-                <div class="skills-group">
-                    <h3>Additional Skills</h3>
-                    <ul class="skill-list">
-                        <li class="skill-tag skill-secondary">APIs</li>
-                        <li class="skill-tag skill-secondary">JSON</li>
-                        <li class="skill-tag skill-secondary">Oracle SQL</li>
-                        <li class="skill-tag skill-secondary">AI (Applied Usage)</li>
-                    </ul>
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <div class="skill-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3"/></svg>
+                        </div>
+                        <h3>Core Tools</h3>
+                        <ul>
+                            <li>SQL</li>
+                            <li>Oracle SQL</li>
+                            <li>Python</li>
+                            <li>Excel</li>
+                            <li>Power BI</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                        </div>
+                        <h3>Analytics</h3>
+                        <ul>
+                            <li>Data Analysis</li>
+                            <li>Data Cleaning</li>
+                            <li>Regression Analysis</li>
+                            <li>Statistical Modeling</li>
+                            <li>Predictive Analytics</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                        </div>
+                        <h3>Data Visualization</h3>
+                        <ul>
+                            <li>Power BI Dashboards</li>
+                            <li>Chart Design</li>
+                            <li>Reporting</li>
+                            <li>Visual Storytelling</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                        </div>
+                        <h3>Business &amp; Supporting</h3>
+                        <ul>
+                            <li>Business Insights</li>
+                            <li>Problem Solving</li>
+                            <li>APIs &amp; JSON</li>
+                            <li>AI (Applied Usage)</li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
         </section>
 
+        <!-- PROJECTS -->
         <section id="projects">
             <div class="container">
                 <h2>Projects</h2>
                 <div class="project-grid">
 
                     <article class="project-card">
-                        <h3>Unicorn Database Project</h3>
-                        <p class="project-tools">Oracle APEX &nbsp;·&nbsp; SQL</p>
-                        <ul>
-                            <li>Designed and implemented a relational database analyzing 1,000+ global unicorn companies</li>
-                            <li>Built a normalized schema and entity-relationship diagram (ERD) with multiple relational tables</li>
-                            <li>Used SQL queries including joins and CASE logic to analyze funding patterns, geographic distribution, and industry trends</li>
-                        </ul>
+                        <div class="project-card-inner">
+                            <div class="project-header">
+                                <h3>Unicorn Database Project</h3>
+                                <p class="project-tools">Oracle APEX &nbsp;&middot;&nbsp; SQL</p>
+                            </div>
+                            <ul class="project-bullets">
+                                <li>Designed and implemented a relational database analyzing 1,000+ global unicorn companies</li>
+                                <li>Built a normalized schema and ERD with multiple relational tables to support complex queries</li>
+                                <li>Used SQL joins and CASE logic to surface funding patterns, geographic distribution, and industry trends</li>
+                            </ul>
+                        </div>
                     </article>
 
                     <article class="project-card">
-                        <h3>MLB Predictive Analytics Sheet</h3>
-                        <p class="project-tools">Google Sheets</p>
-                        <ul>
-                            <li>Integrated 500+ player statistics across 30+ MLB teams into a single dataset</li>
-                            <li>Used VLOOKUP and advanced formulas to combine and cross-reference multiple data sources</li>
-                            <li>Analyzed player performance trends across multiple timeframes to support predictive insights</li>
-                        </ul>
+                        <div class="project-card-inner">
+                            <div class="project-header">
+                                <h3>MLB Predictive Analytics Sheet</h3>
+                                <p class="project-tools">Google Sheets</p>
+                            </div>
+                            <ul class="project-bullets">
+                                <li>Integrated 500+ player statistics across 30+ MLB teams into a unified dataset</li>
+                                <li>Used VLOOKUP and advanced formulas to combine and cross-reference multiple data sources</li>
+                                <li>Analyzed player performance trends across multiple timeframes to support predictive insights</li>
+                            </ul>
+                        </div>
                     </article>
 
                     <article class="project-card">
-                        <h3>College Rating Analysis Project</h3>
-                        <p class="project-tools">Excel</p>
-                        <ul>
-                            <li>Analyzed a dataset of institutional metrics including student-teacher ratios and academic outcomes</li>
-                            <li>Applied regression analysis to identify relationships between key variables and overall college ratings</li>
-                            <li>Identified the strongest drivers of college performance and validated findings against known benchmarks</li>
-                        </ul>
+                        <div class="project-card-inner">
+                            <div class="project-header">
+                                <h3>College Rating Analysis Project</h3>
+                                <p class="project-tools">Excel</p>
+                            </div>
+                            <ul class="project-bullets">
+                                <li>Analyzed institutional metrics including student-teacher ratios and academic outcomes</li>
+                                <li>Applied regression analysis to identify relationships between key variables and college ratings</li>
+                                <li>Identified the strongest performance drivers and validated findings against known benchmarks</li>
+                            </ul>
+                        </div>
                     </article>
 
                 </div>
             </div>
         </section>
 
+        <!-- CONTACT -->
         <section id="contact">
             <div class="container">
                 <h2>Contact</h2>
-                <p>I'm actively looking for Data Analyst and Business Analyst internship opportunities. Feel free to reach out.</p>
-                <ul class="contact-list">
-                    <li>
-                        <a href="mailto:Seandoyle803@gmail.com">Seandoyle803@gmail.com</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/sean-doyle-18147928b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/seandoyle803" target="_blank" rel="noopener noreferrer">GitHub</a>
-                    </li>
-                </ul>
+                <p class="contact-intro">I'm available for data analyst and business analyst opportunities. Feel free to reach out.</p>
+                <div class="contact-row">
+
+                    <a href="mailto:Seandoyle803@gmail.com" class="contact-link">
+                        <span class="contact-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg>
+                        </span>
+                        <span>Email</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/sean-doyle-18147928b/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <span class="contact-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        </span>
+                        <span>LinkedIn</span>
+                    </a>
+
+                    <a href="https://github.com/seandoyle803" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <span class="contact-icon" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.09.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.603-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.268 2.75 1.026A9.578 9.578 0 0 1 12 6.836a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.026 2.747-1.026.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                        </span>
+                        <span>GitHub</span>
+                    </a>
+
+                </div>
             </div>
         </section>
 

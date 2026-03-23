@@ -1,0 +1,172 @@
+Redesign my portfolio site into a modern, recruiter ready dark theme personal website with a strong Chicago inspired visual identity. Do not make small cosmetic edits. Rework the layout, spacing, section structure, card styling, and typography so the site feels intentional, premium, and polished.
+
+Primary goal:
+Make the site look significantly more professional, modern, and visually cohesive. It should feel like a serious personal brand site for an aspiring data analyst, not a basic student template.
+
+Style direction:
+Use a dark theme throughout the site.
+Use a clean palette built around charcoal, near black, soft gray, white, and refined purple accents.
+The purple should be used sparingly for emphasis, highlights, section titles, buttons, and hover states.
+Avoid anything overly bright, playful, or generic.
+The overall feel should be sleek, urban, sharp, and confident.
+Use strong spacing, better alignment, subtle shadows, tasteful borders, and smooth hover transitions.
+Make it responsive and clean on desktop and mobile.
+
+Top hero section:
+I added a Chicago skyline image. Use it at the very top of the page as the main hero background.
+This skyline should be the first thing users see.
+Add a dark overlay on top of the skyline image so text remains readable and the image feels cinematic rather than washed out.
+The skyline should span full width and feel immersive.
+
+Hero content layout:
+Overlay my branding content on top of the skyline section.
+Display the following in a clean, centered or slightly left aligned hero layout:
+Sean Doyle
+Aspiring Data Analyst
+
+Add a short supporting line under that if needed:
+Turning data into insights and predictions
+
+Use design judgment here, but keep the hero clean and not overcrowded.
+
+Profile image:
+Keep my profile image in the hero area, but make it much larger.
+Change it from a small circle to a larger square or softly rounded square.
+It should feel intentional and editorial, not like a tiny floating avatar.
+Place it in a way that balances well with the skyline hero content.
+It should look professional and prominent.
+
+Hero section requirements:
+The skyline image is the visual anchor.
+My name and title must be immediately visible.
+My headshot must be larger and square or rounded square.
+The composition should feel premium and balanced.
+Do not let the hero feel empty or too spread out.
+Use proper padding and alignment.
+
+About section:
+Place the About Me section directly below the hero.
+This section should be cleaner and better styled than the current version.
+Use a contained layout with strong typography and comfortable reading width.
+Do not make the paragraph too wide.
+Use more elegant spacing between the section title and body text.
+
+Use this updated tone for the section:
+Keep me positioned as a Business Analytics and Information Systems student at the University of Iowa graduating in May 2027.
+Emphasize SQL, Python, Power BI, and Excel.
+Frame me as someone who enjoys turning raw data into actionable insights and solving business problems through analysis.
+Make the writing sound professional and confident, not stiff.
+
+Skills section:
+Completely redesign the Skills section.
+The current layout looks weak and should not be reused.
+Do not use the current oversized pill badges as the main presentation.
+
+Create a more structured and visually appealing skills layout.
+Preferred direction:
+Use grouped skill cards or a clean grid with categories.
+Possible categories:
+Core Tools
+Analytics
+Data Visualization
+Business / Supporting Skills
+
+Include skills such as:
+SQL
+Python
+Power BI
+Excel
+Data Analysis
+Data Cleaning
+Visualization
+Reporting
+Problem Solving
+Business Insights
+
+If icons are available, use them subtly.
+The section should feel modern, organized, and substantial.
+Avoid empty space and awkward spacing.
+Make the skills feel like a designed section, not a list of tags.
+
+Projects section:
+The current project layout is not strong enough. Redesign it completely.
+Make the Projects section feel like a true portfolio showcase.
+
+Requirements:
+Use a clean responsive grid.
+Each project should have its own polished card.
+Cards should have a darker background than the page with subtle border, hover lift, and clean padding.
+Use better hierarchy for project title, tools, and bullet points.
+Improve readability and spacing inside each card.
+
+If project images, thumbnails, or linked visuals exist, integrate them in a more intentional way.
+If there are no real visuals, create a stronger text based featured card layout instead of forcing bad image placement.
+Do not let linked images appear awkward, misaligned, oversized, or disconnected from the cards.
+If needed, place visuals at the top of each project card with consistent sizing and cropping.
+
+Project cards should feel balanced and consistent in height where possible.
+The section should look strong on desktop and stack nicely on mobile.
+
+Use these projects as featured items:
+Unicorn Database Project
+MLB Predictive Analytics Sheet
+College Rating Analysis Project
+
+For each project:
+Make the title stand out
+Display tools used in a smaller accent style
+Keep the bullet points but improve the presentation and spacing
+Make each project feel polished and substantial
+
+Navigation:
+Keep the top navigation, but restyle it for the new dark theme.
+Make it slimmer, cleaner, and more modern.
+Use subtle hover states and better spacing between links.
+Ensure the nav remains readable over the hero.
+A transparent nav that becomes slightly darker or blurred on scroll would be a good choice if implemented cleanly.
+
+Contact section:
+Keep Contact as a dedicated section at the bottom.
+Rewrite the intro sentence. Do not say I am looking for an internship.
+Use language closer to:
+I’m available for data analyst and business analyst opportunities. Feel free to reach out.
+
+Contact links:
+Do not stack the contact links vertically.
+Place email, LinkedIn, and GitHub in one horizontal row.
+Use icons if possible:
+email icon
+LinkedIn logo
+GitHub logo
+
+If icons are used, pair them with text or make the buttons clearly recognizable.
+Style them as clean modern link buttons or icon cards with hover effects.
+This section should feel minimal and polished, not plain.
+
+Typography:
+Use stronger typography hierarchy throughout the site.
+Section headers should be clear and visually consistent.
+Body text should be readable with comfortable line height.
+Use better sizing and spacing between headings, subheadings, and paragraph text.
+
+Spacing and structure:
+Increase overall layout consistency.
+Use intentional section spacing so the page flows naturally.
+Avoid random gaps, cramped cards, or misaligned elements.
+Each section should feel distinct but still part of one cohesive design system.
+
+Interaction details:
+Add subtle hover effects to cards, links, buttons, and icons.
+Use smooth transitions.
+Do not over animate.
+Keep everything professional.
+
+Implementation notes:
+Preserve all existing content unless the rewrite request above suggests a better version.
+Do not remove important information.
+Feel free to improve section structure and layout if it produces a better design.
+Prioritize design quality, clarity, and professionalism over matching the old layout.
+
+Final expectation:
+The finished site should feel like a sharp, dark themed, city inspired portfolio for Sean Doyle, with the Chicago skyline hero, a larger square headshot, a cleaner About section, a redesigned Skills section, a much stronger Projects layout, and a polished Contact section with horizontal icon based links.
+Make it look like something a recruiter would immediately take seriously.
