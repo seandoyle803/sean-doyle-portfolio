@@ -1,0 +1,95 @@
+Make the following targeted improvements to my portfolio site. Do not redesign everything from scratch. Keep the current dark theme, Chicago skyline hero, and overall structure, but refine layout, readability, and visual balance so the site feels more polished and intentional.
+
+Hero section:
+Keep the Chicago skyline hero and current layout.
+
+Fix readability of the hero text:
+- “Aspiring Data Analyst” and “Sean Doyle” are currently too hard to see against the skyline.
+- Increase contrast significantly.
+
+Do this by:
+- Making the text color brighter (closer to white or very light gray)
+- Optionally adding a subtle text shadow or glow
+- Slightly darkening the overlay behind the text if needed
+
+The goal is strong readability while keeping the cinematic look.
+
+Also:
+- Tighten spacing between:
+  “Aspiring Data Analyst”
+  “Sean Doyle”
+  subtitle line
+- The text block should feel like one clean, compact unit
+
+Do not shrink the skyline or remove the headshot.
+
+About section:
+Replace the current About Me text with exactly this:
+
+My name is Sean Doyle. I'm from the Chicago suburbs. I currently attend the University of Iowa.
+
+Add the Tigerhawk image next to the About Me content.
+
+Layout:
+- Desktop: two columns
+  Left = text
+  Right = Tigerhawk image
+- Mobile: stacked (text above image)
+
+Design:
+- Place the Tigerhawk inside a styled container (dark card with subtle border and soft shadow)
+- Keep sizing balanced with the text block
+- Align it cleanly with the section heading
+- Do not let it feel oversized or floating
+
+Also:
+- Reduce unnecessary vertical space in this section
+- Keep text width tighter for better readability
+
+Skills section:
+The structure is good, but refine it:
+
+- Make all skill cards equal height
+- Align spacing perfectly between cards
+- Slightly reduce padding inside cards to make them feel tighter
+- Increase contrast between card background and page background slightly
+- Make section title styling consistent with About and Projects
+
+Projects section:
+Improve polish and readability:
+
+- Reduce excessive vertical spacing between project cards
+- Make all cards consistent in width and alignment
+- Slightly tighten bullet point spacing inside each card
+- Increase contrast of project titles so they stand out more
+- Keep hover effects subtle but noticeable
+
+Ensure the section feels more compact and easier to scan.
+
+Contact section:
+Refine content and layout:
+
+Replace the sentence with:
+I’m available for data analyst and business analyst opportunities. Feel free to reach out.
+
+Layout:
+- Keep all links in one horizontal row
+- Add icons for:
+  email
+  LinkedIn
+  GitHub
+
+Design:
+- Style them as clean icon buttons or minimal cards
+- Add hover effects (color shift or slight lift)
+- Ensure spacing between icons is even and balanced
+
+Global refinements:
+- Make section headers (About, Skills, Projects, Contact) consistent in size, spacing, and styling
+- Ensure consistent vertical spacing between all sections
+- Improve alignment across the page (no slight offsets or uneven margins)
+- Keep everything responsive and clean on mobile
+
+Goal:
+Do not overhaul the design. Elevate it.
+The site should feel sharper, cleaner, and more professional, with improved readability, tighter spacing, and better visual balance.
